@@ -1,0 +1,26 @@
+.card-box {
+    position: relative;
+    width: 525px;
+    height: 393.55px;
+    border-radius: 60px;
+  }
+  
+  .card-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: url("설계팀.jpg");
+    background-size: cover;
+    border-radius: 16px;
+  }
+  
+  .text{
+    position: absolute;
+    bottom: 0;
+    padding: 24px;
+    z-index: 1;
+    color: aliceblue;
+  }  
